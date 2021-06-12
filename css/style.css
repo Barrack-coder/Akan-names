@@ -30,13 +30,21 @@ body {
     top: 50px;
     width: 750px;
     height: 50rem;
-    border: 5px solid #111;
-    background-color: rgb(17, 31, 31);
+    background-color: rgb(56, 155, 155);
     margin-left: auto;
     margin-right: auto;
     border-radius: 10% / 50%;
     bottom: 50px;
     box-shadow: inset 0 0 10px #ffffff;
+    right: 20rem;
+}
+
+h1 {
+    text-shadow: 0 0 3px #c8e233, 0 0 5px #0000FF;
+}
+
+.name {
+    width: 10rem;
 }
 
 .content2 {
@@ -44,14 +52,13 @@ body {
     top: 50px;
     width: 650px;
     height: 20rem;
-    border: 5px solid #111;
-    background-color: rgb(17, 31, 31);
+    background-color: rgb(66, 151, 151);
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px 100px / 120px;
     bottom: 50px;
     box-shadow: inset 0 0 10px #ffffff;
     padding-top: 20rem;
-    left: 20rem;
+    left: 45rem;
     bottom: 35rem;
 }
