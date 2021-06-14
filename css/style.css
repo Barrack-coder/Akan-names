@@ -123,3 +123,12 @@ label {
 button:active {
     transform: scale(1.1)
 }
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
