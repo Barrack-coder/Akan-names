@@ -42,35 +42,48 @@
             The submit button is the part where your input or your details have been feed to the application and then it display.
         </div>
         <!--The user input form------------------------------>
-        <div class="content0">
-            <div class="space"></div>
 
 
-            <form id="form_data" class="form row">
-
-                <div class="form-group row">
-                    <label class="label-control ">Enter your date of birth:</label>
-                    <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br />
+        <div class="akanform">
+            <form class="row g-3" id="akanform" onsubmit="akanGenerator()">
+                <div class="col-md-12">
+                    <label for="year" class="form-label"><strong>Year</strong></label>
+                    <input type="number" class="form-control" id="year">
                 </div>
-                <div class="form-group row">
-                    <label>Choose your gender:</label>
-                    <select id="gender" class="form-control form-control-sm">
-                    <option>Choose your gender</option>
-                    <option>Male</option>
-                    <option>Female</option><br>
-                </select>
+                <div class="col-md-12">
+                    <label for="month" class="form-label"><strong>Month</strong></label>
+                    <input type="number" class="form-control" id="month">
                 </div>
-                <!--button section----------------->
-                <div class="row2">
-
-                    <button class="submit-btn">submit</button>
+                <div class="col-md-12">
+                    <label for="day" class="form-label"><strong>Day</strong></label>
+                    <input type="number" class="form-control" id="day">
                 </div>
-            </form>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="male-input">
+                    <label class="form-check-label" for="male-input">
+                 <strong>Male</strong>
+                </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="female-input">
+                    <label class="form-check-label" for="female-input">
+                 <strong>Female</strong>
+                </label>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" id="get-name">Submit</button>
+                </div>
+                <div class="text-center">
+                    <h5 id="display" style="color: antiquewhite;"><strong>Your Akan Name will be displayed below:</strong></h5>
+                    <p id="result"></p>
+                </div>
         </div>
+        </form>
+
         <!--footer----------------------------->
         <footer>
 
-            <p>GET THE AKAN-NAMES</p>
+            <p>GET YOUR AKAN-NAME</p>
             <!--social--------------------------->
             <div class="social-icons">
 

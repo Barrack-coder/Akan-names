@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    margin-top: 50rem;
+    margin-top: 6rem;
 }
 
 
@@ -71,18 +71,8 @@ h1 {
     bottom: 35rem;
 }*/
 
-.content0 {
-    position: relative;
-    top: 50px;
-    width: 50%;
-    height: 20rem;
-    border: 10px solid black;
-    border-radius: 10px 100px / 120px;
-    margin: 3rem 10rem 0px 30rem;
-    box-shadow: inset 0 0 10px #310133;
-}
 
-form {
+/*form {
     padding: 20px;
     padding-left: 80px;
     line-height: 5px;
@@ -102,6 +92,14 @@ label {
     padding: 2px
 }
 
+.form-grouprow {
+    margin-top: 10rem;
+}
+
+.row2 {
+    margin-top: 30px;
+}
+
 .row2 button {
     width: 130px;
     height: 42px;
@@ -113,8 +111,9 @@ label {
     margin: 0px 10px;
     color: #ee7752;
 }
+       
 
-.submit-btn {
+.btn btn-primary {
     border: 2px solid #373636;
     background-color: #350135;
     margin-top: 30rem;
@@ -122,6 +121,65 @@ label {
 
 button:active {
     transform: scale(1.1)
+}*/
+
+.akanform {
+    position: relative;
+    top: 50px;
+    width: 50%;
+    height: 20rem;
+    border: 10px solid black;
+    border-radius: 10px 100px / 120px;
+    margin: 3rem 10rem 0px 30rem;
+    box-shadow: inset 0 0 10px #310133;
+}
+
+.row g-3 {
+    padding-left: 2px;
+}
+
+#get-name {
+    border: 2px solid #373636;
+    background-color: #350135;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.form-label {
+    font-size: 30px;
+}
+
+.form-check-label {
+    font-size: 20px;
+}
+
+.text-center {
+    font-size: 30px;
+}
+
+button:active {
+    transform: scale(1.1)
+}
+
+button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    color: #ee7752;
+}
+
+#name {
+    width: 100%;
+    height: 100px;
+}
+
+form {
+    padding: 10px;
 }
 
 footer {
