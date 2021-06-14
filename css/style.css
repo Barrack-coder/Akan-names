@@ -44,12 +44,14 @@ h1 {
     text-shadow: 0 0 3px #c8e233, 0 0 5px #0000FF;
 }
 
-.name {
-    width: 10rem;
+.head {
+    text-align: center;
+    margin-top: 3rem;
 }
 
-.paragraph {
-    width: 20px;
+.paragraph1 {
+    font-size: 2rem;
+    font-style: oblique;
 }
 
 
