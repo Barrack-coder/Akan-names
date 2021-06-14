@@ -25,10 +25,11 @@ body {
     margin-top: 50rem;
 }
 
-.content {
+
+/*.content {
     position: relative;
     top: 50px;
-    width: 750px;
+    width: 55%;
     height: 50rem;
     background-color: rgb(56, 155, 155);
     margin-left: auto;
@@ -37,7 +38,7 @@ body {
     bottom: 50px;
     box-shadow: inset 0 0 10px #ffffff;
     right: 20rem;
-}
+}*/
 
 h1 {
     text-shadow: 0 0 3px #c8e233, 0 0 5px #0000FF;
@@ -47,7 +48,15 @@ h1 {
     width: 10rem;
 }
 
-.content2 {
+.paragraph {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.content2 {
     position: relative;
     top: 50px;
     width: 650px;
@@ -61,4 +70,4 @@ h1 {
     padding-top: 20rem;
     left: 45rem;
     bottom: 35rem;
-}
+}*/
