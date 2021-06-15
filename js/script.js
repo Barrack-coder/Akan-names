@@ -62,4 +62,3 @@ function akanGenerator() {
         return false;
     }
 }
-l
