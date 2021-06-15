@@ -16,7 +16,7 @@ JAVASCRIPT
 ## BDD
 As a user, I should be able to see a small description, so as to understand the application.
 As a user, I should be able to enter my date of birth through a form.
-s a user, I should be able to choose my gender through radio buttons.
+As a user, I should be able to choose my gender through radio buttons.
 As a user, I should be able to click the submit button and get back my Akan name according to my gender.
 Scenario:
 Given that:
