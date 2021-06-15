@@ -4,7 +4,7 @@
 ## Description
 This is a web application that prompts the user to input their date of birth, calculates the day of the week they were born and in return gives back an Akan name corresponding to that day. Akan names are Ghanian culture of naming children according to the name of the day they are born
 
-👤 **Author**
+👤 **Author**:
 Barrack Odhiambo Juma
 ## Technologies used
 HTML

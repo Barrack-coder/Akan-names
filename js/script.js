@@ -1,10 +1,9 @@
-let akanform = document.getElementById("akanform");
-akanform.addEventListener("submit", function(event) {
-    event.preventDefault();
-})
-
 function akanGenerator() {
-    //Validating month and day
+    let akanform = document.getElementById("akanform");
+    akanform.addEventListener("submit", function(event) {
+            event.preventDefault();
+        })
+        //Validating month and day
     function validator() {
         if ((Number(day) < 0 || Number(day) > 31) || (Number(month) < 0 || Number(month) > 12)) {
             alert("Enter valid day or month")
