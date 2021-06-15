@@ -127,7 +127,7 @@ button:active {
     position: relative;
     top: 50px;
     width: 50%;
-    height: 20rem;
+    height: 75vh;
     border: 10px solid black;
     border-radius: 10px 100px / 120px;
     margin: 3rem 10rem 0px 30rem;
@@ -142,7 +142,8 @@ button:active {
     border: 2px solid #373636;
     background-color: #350135;
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 20px;
+    padding-top: 1px;
 }
 
 .form-label {
