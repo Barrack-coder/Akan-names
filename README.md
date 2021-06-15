@@ -11,7 +11,7 @@ HTML
 CSS
 JAVASCRIPT
 ## live demo
-
+[Link to live demo](https://barrack-coder.github.io/Akan-names/)
 
 ## BDD
 As a user, I should be able to see a small description, so as to understand the application.
